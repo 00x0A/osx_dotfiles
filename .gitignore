@@ -20,3 +20,6 @@
 .config/zed/prompts/prompts-library-db.0.mdb/lock.mdb
 .DS_Store
 /.cache
+/.config/gh
+/.config/zed/prompts
+.config/zed/prompts/prompts-library-db.0.mdb/lock.mdb
