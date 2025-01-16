@@ -17,3 +17,4 @@
 .DS_Store
 .zsh_sessions/_expiration_check_timestamp
 /.zsh_sessions
+.config/zed/prompts/prompts-library-db.0.mdb/lock.mdb
