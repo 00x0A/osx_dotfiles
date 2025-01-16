@@ -29,7 +29,7 @@ xz
 zoxide
 zstd
 adguard
-aerospace
+nikitabobko/tap/aerospace
 c0re100-qbittorrent
 font-jetbrains-mono-nerd-font
 github
