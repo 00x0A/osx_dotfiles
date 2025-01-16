@@ -2,6 +2,7 @@ add_newline = false
 right_format = """
 """
 format = """($nix_shell$container$fill$git_metrics\n)
+$battery\
 $os\
 $shlvl\
 $shell\
@@ -76,7 +77,6 @@ $azure\
 $crystal\
 $custom\
 $status\
-$battery\
 $localip\
 $hostname\
 $memory_usage\
@@ -126,7 +126,6 @@ success_symbol = ">"
 format = '\[[$user]($style)\] in '
 style_user="bold yellow"
 style_root="bold red"
-
 disabled = false
 show_always = true
 
@@ -149,25 +148,26 @@ disabled = true
 ssh_only = false
 
 [battery]
+format = "[$symbol $percentage ]($style)"
+show_always = true
 disabled = false
-format = "[ $percentage $symbol]($style)"
-full_symbol = "🔋"
-charging_symbol = "⚡️"
-discharging_symbol = "↓"
+full_symbol = ""
+charging_symbol = "🔌"
+discharging_symbol = ""
 unknown_symbol = "?"
-empty_symbol = "🪫"
+empty_symbol = ""
 
 [[battery.display]]
 threshold = 20
 style = "bold red"
 
 [[battery.display]]
-threshold = 60
-style = "dimmed bright-purple"
+threshold = 30
+style = "dimmed yellow"
 
 [[battery.display]]
-threshold = 70
-style = "dimmed yellow"
+threshold = 100
+style = "dimmed green"
 
 [aws]
 symbol = "  "
