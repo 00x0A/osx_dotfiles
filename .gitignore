@@ -15,3 +15,5 @@
 .CFUserTextEncoding
 .zsh_history
 .DS_Store
+.zsh_sessions/_expiration_check_timestamp
+/.zsh_sessions
