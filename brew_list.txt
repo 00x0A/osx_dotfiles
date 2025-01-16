@@ -8,6 +8,7 @@ fish
 fisher
 fzf
 g-ls
+gh
 lf
 libgit2
 libssh2
@@ -29,7 +30,7 @@ xz
 zoxide
 zstd
 adguard
-nikitabobko/tap/aerospace
+aerospace
 c0re100-qbittorrent
 font-jetbrains-mono-nerd-font
 github
