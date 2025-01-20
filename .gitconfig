@@ -7,4 +7,7 @@
 	name = 00x0A
 	email = 157408954+00x0A@users.noreply.github.com
 [http]
-	postBuffer = 157286400
+	postBuffer = 500M
+	maxRequestBuffer = 100M
+[core]
+	compression = 0
