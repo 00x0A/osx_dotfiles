@@ -9,3 +9,5 @@
 	maxRequestBuffer = 100M
 [core]
 	compression = 0
+[user]
+	email = 157408954+00x0A@users.noreply.github.com
