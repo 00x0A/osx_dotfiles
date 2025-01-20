@@ -30,3 +30,5 @@
 /.config/zed/prompts
 /.config/OCAuxiliaryTools
 .config/.DS_Store
+.lesshst
+.DS_Store
