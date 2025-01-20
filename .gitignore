@@ -32,3 +32,5 @@
 .config/.DS_Store
 .lesshst
 .DS_Store
+/.tldrc
+.viminfo
