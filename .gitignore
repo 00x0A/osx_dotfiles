@@ -23,3 +23,10 @@
 /.config/gh
 /.config/zed/prompts
 .config/zed/prompts/prompts-library-db.0.mdb/lock.mdb
+/.config/OCAuxiliaryTools
+/.config/zed/prompts
+/.ocat/Database
+/.ocat
+/.config/zed/prompts
+/.config/OCAuxiliaryTools
+.config/.DS_Store
