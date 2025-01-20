@@ -1,7 +1,6 @@
 add_newline = false
-right_format = """
-"""
-format = """($nix_shell$container$fill$git_metrics\n)
+right_format = ""
+format = """
 $battery\
 $os\
 $shlvl\
@@ -16,10 +15,6 @@ $singularity\
 $kubernetes\
 $vcsh\
 $fossil_branch\
-$git_branch\
-$git_commit\
-$git_state\
-$git_status\
 $hg_branch\
 $pijul_channel\
 $docker_context\
@@ -107,10 +102,10 @@ disabled = false
 symbol = ""
 threshold = 0
 format = " [${ram}]($style)"
-style = "bold green"
+style = "bold blue"
 
 [hostname]
-format = " [$hostname]($style)"
+format = '\[[$hostname]($style)\]'
 style= "bold dimmed cyan"
 disabled = false
 ssh_only = false
@@ -140,7 +135,7 @@ disabled = false
 format = "[ $time ]($style)"
 time_format = "%R"
 utc_time_offset = "local"
-style = "bold dimmed red"
+style = "bold white"
 
 [localip]
 format = " @ $localipv4"
