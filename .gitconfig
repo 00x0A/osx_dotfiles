@@ -4,9 +4,6 @@
 	process = git-lfs filter-process
 	required = true
 	clean = git-lfs clean -- %f
-[user]
-	name = 00x0A
-	email = 157408954+00x0A@users.noreply.github.com
 [http]
 	postBuffer = 500M
 	maxRequestBuffer = 100M
