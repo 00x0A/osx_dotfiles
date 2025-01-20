@@ -35,3 +35,4 @@
 /.tldrc
 .viminfo
 .gitconfig
+.DS_Store
